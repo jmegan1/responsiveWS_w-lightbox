@@ -1,0 +1,60 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/background.jpg)no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.site-section {
+  text-align: center;
+  padding: 50px 0 60px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#why .item i {
+  font-size: 30px;
+}
+
+#why .item h2 {
+  font-weight: normal;
+}
+
+.h1, h1 {
+  text-align: center;
+}
+
+.col-md-4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
